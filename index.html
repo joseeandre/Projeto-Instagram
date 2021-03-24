@@ -5,11 +5,398 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Instagram</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/tablet.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="caixa-topo">
+        <div class="topo">
+            <div class="caixa-logo">
+                <figure>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </figure>
+                <div class="separador-vertical"></div>
+                <img src="pictures/logo.png" alt="Logo Instagram">
+            </div>
+            <div class="caixa-pesquisa">Pesquisar</div>
+            <div class="caixa-icons">
+                <a href="#">
+                    <ion-icon name="paper-plane-outline"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="compass-outline"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="heart-outline"></ion-icon>
+                </a>
+                <a href="#">
+                    <ion-icon name="person-outline"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="topo-mobile">
+            <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="index.html"><img src="pictures/logo.png" alt="" class="logo-mobile"></a>
+            <a href="#">
+                <ion-icon name="paper-plane-outline"></ion-icon>
+            </a>
+        </div>
+    </div>
 
+    <div class="caixa-baixo">
+        <div class="barra-baixo">
+            <a href="#">
+                <ion-icon name="home"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="search-outline"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon class="barra-borda" name="add-outline"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="heart-outline"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="person-outline"></ion-icon>
+            </a>
+        </div>
+    </div>
+
+    <div class="feed">
+        <div class="conteudo">
+            <div class="caixa-principal">
+                <div class="caixa-stories">
+                    <a href="#">
+                        <ion-icon name="chevron-forward-circle"></ion-icon>
+                    </a>
+                    <div class="story">
+                        <a href="#" class="foto-stories"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div class="nome-stories">9gag</div>
+                    </div>
+                    <div class="story">
+                        <a href="#" class="foto-stories"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div class="nome-stories">9gag</div>
+                    </div>
+                    <div class="story">
+                        <a href="#" class="foto-stories"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div class="nome-stories">9gag</div>
+                    </div>
+                    <div class="story">
+                        <a href="#" class="foto-stories"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div class="nome-stories">9gag</div>
+                    </div>
+                    <div class="story">
+                        <a href="#" class="foto-stories"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div class="nome-stories">9gag</div>
+                    </div>
+                    <div class="story">
+                        <a href="#" class="foto-stories"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div class="nome-stories">9gag</div>
+                    </div>
+                    <div class="story">
+                        <a href="#" class="foto-stories"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div class="nome-stories">9gag</div>
+                    </div>
+                    <div class="story">
+                        <a href="#" class="foto-stories"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div class="nome-stories">9gag</div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="topo-post">
+                        <div class="nome">
+                            <img src="pictures/stories/st1.png" alt="">
+                            <p>9gag</p>
+                        </div>
+                        <a href="#">
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="foto-post">
+                        <img src="pictures/posts/post1.png">
+                    </div>
+                    <div class="icones-post">
+                        <div>
+                            <a href="#">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="like">
+                        <img src="pictures/stories/st1.png" alt="">
+                        <p>Curtido por <strong>9gag</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="topo-post">
+                        <div class="nome">
+                            <img src="pictures/stories/st1.png" alt="">
+                            <p>9gag</p>
+                        </div>
+                        <a href="#">
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="foto-post">
+                        <video muted autoplay loop>
+                            <source src="videos/video.mp4" type="video/mp4">
+                            <source src="videos/video.ogv" type="video/ogv">
+                        </video>
+                    </div>
+                    <div class="icones-post">
+                        <div>
+                            <a href="#">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="like">
+                        <img src="pictures/stories/st1.png" alt="">
+                        <p>Curtido por <strong>9gag</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="topo-post">
+                        <div class="nome">
+                            <img src="pictures/stories/st1.png" alt="">
+                            <p>9gag</p>
+                        </div>
+                        <a href="#">
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="foto-post">
+                        <img src="pictures/posts/post1.png">
+                    </div>
+                    <div class="icones-post">
+                        <div>
+                            <a href="#">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="like">
+                        <img src="pictures/stories/st1.png" alt="">
+                        <p>Curtido por <strong>9gag</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="topo-post">
+                        <div class="nome">
+                            <img src="pictures/stories/st1.png" alt="">
+                            <p>9gag</p>
+                        </div>
+                        <a href="#">
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="foto-post">
+                        <img src="pictures/posts/post1.png">
+                    </div>
+                    <div class="icones-post">
+                        <div>
+                            <a href="#">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="like">
+                        <img src="pictures/stories/st1.png" alt="">
+                        <p>Curtido por <strong>9gag</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="topo-post">
+                        <div class="nome">
+                            <img src="pictures/stories/st1.png" alt="">
+                            <p>9gag</p>
+                        </div>
+                        <a href="#">
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="foto-post">
+                        <img src="pictures/posts/post1.png">
+                    </div>
+                    <div class="icones-post">
+                        <div>
+                            <a href="#">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="chatbubble-outline"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="paper-plane-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="like">
+                        <img src="pictures/stories/st1.png" alt="">
+                        <p>Curtido por <strong>9gag</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="caixa-sugeridos">
+                <div class="perfil">
+                    <a href="#"><img src="pictures/stories/st1.png" alt=""></a>
+                    <div>
+                        <p>9gag</p>
+                        <p class="perfil-nome">9gag</p>
+                    </div>
+                </div>
+                <div class="sugestoes-topo">
+                    <p class="sugestoes-titulo"><strong>Sugestões para você</strong></p>
+                    <p>Ver tudo</p>
+                </div>
+                <div class="perfis-sugeridos">
+                    <div class="perfil-sugerido">
+                        <a href="#"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div>
+                            <p>bad.vibes.memes</p>
+                            <p class="sugestoes-titulo">Segue você</p>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <p class="azul">Seguir</p>
+                    </a>
+                </div>
+                <div class="perfis-sugeridos">
+                    <div class="perfil-sugerido">
+                        <a href="#"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div>
+                            <p>bad.vibes.memes</p>
+                            <p class="sugestoes-titulo">Segue você</p>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <p class="azul">Seguir</p>
+                    </a>
+                </div>
+                <div class="perfis-sugeridos">
+                    <div class="perfil-sugerido">
+                        <a href="#"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div>
+                            <p>bad.vibes.memes</p>
+                            <p class="sugestoes-titulo">Segue você</p>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <p class="azul">Seguir</p>
+                    </a>
+                </div>
+                <div class="perfis-sugeridos">
+                    <div class="perfil-sugerido">
+                        <a href="#"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div>
+                            <p>bad.vibes.memes</p>
+                            <p class="sugestoes-titulo">Segue você</p>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <p class="azul">Seguir</p>
+                    </a>
+                </div>
+                <div class="perfis-sugeridos">
+                    <div class="perfil-sugerido">
+                        <a href="#"><img src="pictures/stories/st1.png" alt=""></a>
+                        <div>
+                            <p>bad.vibes.memes</p>
+                            <p class="sugestoes-titulo">Segue você</p>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <p class="azul">Seguir</p>
+                    </a>
+                </div>
+
+                <div class="creditos">
+                    <ul>
+                        <li><a class="creditos-fonte" href="#">Sobre</a></li>
+                        <li><a class="creditos-fonte" href="#">Ajuda</a></li>
+                        <li><a class="creditos-fonte" href="#">Impresa</a></li>
+                        <li><a class="creditos-fonte" href="#">API</a></li>
+                        <li><a class="creditos-fonte" href="#">Carreiras</a></li>
+                        <li><a class="creditos-fonte" href="#">Privacidade</a></li>
+                        <li><a class="creditos-fonte" href="#">Termos</a></li>
+                        <li><a class="creditos-fonte" href="#">Localizações</a></li>
+                        <li><a class="creditos-fonte" href="#">Contas mais relevantes</a></li>
+                        <li><a class="creditos-fonte" href="#">Hashtags</a></li>
+                        <li><a class="creditos-fonte" href="#">Idioma</a></li>
+                    </ul>
+                    <div class="creditos-fonte">© 2020 INSTAGRAM DO FACEBOOK</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 
 </html>

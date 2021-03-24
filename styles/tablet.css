@@ -1,0 +1,22 @@
+@media (min-width: 630px) and (max-width: 1000px) {
+    .caixa-sugeridos {
+        display: none;
+    }
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo {
+        justify-content: center;
+    }
+    .foto-post {
+        width: 100%;
+        flex-shrink: 0;
+    }
+    .topo-mobile {
+        display: none;
+    }
+    .topo {
+        width: 95%;
+    }
+}

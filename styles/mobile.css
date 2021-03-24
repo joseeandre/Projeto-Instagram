@@ -52,7 +52,7 @@
         width: 94vw;
     }
     .comentar {
-        width: calc(100% - 15px);
+        display: none;
     }
     .caixa-baixo {
         width: 100%;

@@ -46,10 +46,10 @@ a:link {
 
 .topo ion-icon {
     font-size: 25px;
-    color: #1c1c1c;
+    color: black;
 }
 
-.separador-vertical {
+.topo .separador-vertical {
     height: 22px;
     width: 1px;
     background-color: #DBDBDB;
@@ -86,7 +86,7 @@ a:link {
 
 .caixa-icons ion-icon {
     font-size: 25px;
-    color: #1c1c1c;
+    color: black;
     margin-left: 20px;
 }
 
@@ -125,7 +125,7 @@ a:link {
     background-color: #FFFFFF;
     border: 1px solid #DBDBDB;
     position: relative;
-    margin-top: 84px;
+    margin-top: 64px;
     margin-bottom: 24px;
     padding-left: 15px;
 }
@@ -226,8 +226,7 @@ a:link {
 .icones-post a {
     margin-right: 8px;
     font-size: 30px;
-    color: #1c1c1c;
-    background: transparent;
+    color: black;
     text-decoration: none;
 }
 
@@ -252,6 +251,88 @@ a:link {
     font-size: 14px;
 }
 
+.comentarios {
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 24px;
+    font-size: 14px;
+}
+
+.comentarios p {
+    color: black;
+}
+
+.comentarios strong {
+    margin-right: 10px;
+}
+
+.comentarios>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 18px;
+    width: 100%;
+}
+
+.mais-comentarios a {
+    color: #8E8E8E;
+    vertical-align: baseline;
+}
+
+.comentario {
+    position: relative;
+}
+
+.comentario ion-icon {
+    font-size: 12px;
+    position: absolute;
+    top: 3;
+    right: 34px;
+    cursor: pointer;
+}
+
+.hora {
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.comentar {
+    width: 597px;
+    height: 40px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    font-size: 14px;
+    border-top: 1px solid #DBDBDB;
+}
+
+.comentar a {
+    margin-right: 8px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.comentar .cinza {
+    color: #8E8E8E;
+    vertical-align: baseline;
+}
+
+.comentar>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comentar .publicar {
+    color: #139EF2;
+    font-size: 14px;
+}
+
 
 /* caixa sugeridos */
 
@@ -259,7 +340,7 @@ a:link {
     margin-top: 107px;
     width: 300px;
     position: fixed;
-    top: 60;
+    top: -2px;
     right: calc((100% - 940px) / 2);
 }
 
@@ -349,7 +430,7 @@ a:link {
 .creditos ul {
     width: 100%;
     height: 42px;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     margin-bottom: 36px;
 }
@@ -361,9 +442,9 @@ a:link {
 
 .creditos li:nth-last-child(n+2)::after {
     content: "•";
+    color: #c7c7c7;
     padding-left: 2px;
     font-size: 11px;
-    color: #c7c7c7;
 }
 
 .creditos .creditos-fonte {

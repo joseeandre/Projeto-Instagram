@@ -15,7 +15,6 @@
     }
     body {
         width: 100vw;
-        justify-content: flex-end;
         align-items: center;
     }
     .topo-mobile,
@@ -36,7 +35,7 @@
     }
     .caixa-stories {
         width: 100vw;
-        background-color: #E6E6E6;
+        background-color: #FAFAFA;
         border-left: none;
         border-right: none;
         margin-bottom: initial;
@@ -50,6 +49,9 @@
         margin-bottom: 40px;
     }
     .icones-post {
+        width: 94vw;
+    }
+    .comentar {
         width: 94vw;
     }
     .caixa-baixo {
@@ -72,5 +74,14 @@
     .barra-borda {
         border: 2px solid #1c1c1c;
         border-radius: 10px;
+    }
+    .comentarios {
+        width: calc(100vw - 18px);
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 18px;
+    }
+    .comentarios>div {
+        width: calc(100vw - 18px);
     }
 }

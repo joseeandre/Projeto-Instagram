@@ -1,4 +1,4 @@
-@media (max-width: 629px) {
+@media (max-width: 614px) {
     .caixa-sugeridos {
         display: none;
     }
@@ -52,7 +52,7 @@
         width: 94vw;
     }
     .comentar {
-        width: calc(100% - 35px);
+        width: calc(100% - 15px);
     }
     .caixa-baixo {
         width: 100%;
@@ -83,5 +83,7 @@
     }
     .comentarios>div {
         width: calc(100vw - 18px);
+        padding-left: 0;
+        padding-right: 0;
     }
 }

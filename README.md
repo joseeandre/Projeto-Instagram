@@ -1,9 +1,9 @@
-![globo](https://i.imgur.com/gjbBK6L.png)
+![instagram](https://i.imgur.com/FlcJrUn.png)
 
 # Projeto site instagram.com
 
-Primeiro projeto do Bootcamp Responde Aí. Página inical do site [globo.com](https://www.globo.com/) implementado com html e css. Disponível nas versões desktop e mobile.
+Segundo projeto do Bootcamp Responde Aí. Página inical do site [instagram](https://www.instagram.com/?hl=pt-br) implementado com html e css. Disponível nas versões desktop e mobile.
 
 Versão desktop:
-![aux_table](https://i.imgur.com/1z9No0F.png)
+![aux_table](https://i.imgur.com/u00SlFS.png)
 

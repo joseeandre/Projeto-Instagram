@@ -49,13 +49,13 @@
         margin-bottom: 40px;
     }
     .icones-post {
-        width: 94vw;
+        width: 100%;
     }
     .comentar {
         display: none;
     }
     .caixa-baixo {
-        width: 100%;
+        width: 100vw;
         border-top: 1px solid #DBDBDB;
         display: flex;
         justify-content: center;
@@ -66,6 +66,7 @@
         right: auto;
         background-color: white;
         z-index: 3;
+        box-sizing: border-box;
     }
     .barra-baixo ion-icon {
         font-size: 30px;
